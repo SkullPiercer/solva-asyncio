@@ -1,5 +1,7 @@
 import pytest
+
 from tasks import fetch_all
+
 
 @pytest.mark.asyncio
 async def test_fetch_all_statuses():
